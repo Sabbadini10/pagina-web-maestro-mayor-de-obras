@@ -1,0 +1,11 @@
+.imagen-error{
+    height: 524px;
+}
+
+.error-titulo{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-size: 6em;
+    font-family: var(--subtitulos-1);
+}

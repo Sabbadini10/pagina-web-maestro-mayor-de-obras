@@ -1,0 +1,38 @@
+@import '../app/App.css';
+
+.Footer{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Footer-span {
+    color: white;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: var(--parrafo-2);
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .Footer{
+        height: 60px;
+    }
+    
+    .Footer-span {
+        font-size: 15px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .Footer{
+        height: 70px;
+    }
+    
+    .Footer-span {
+        font-size: 18px;
+    }
+}
