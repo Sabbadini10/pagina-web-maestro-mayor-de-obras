@@ -1,14 +1,20 @@
 import React from 'react'
 import './Navbar.css'
 import { Outlet, Link } from "react-router-dom";
+import ImagenLogo from '../imagen/ImagenLogo';
+import Logo from '../../imagenes/LogoRodrigo.jpg'
 
 
 function Navbar() {
   return (
     <>
-      <div className='Navbar'>
-      <nav className="navbar bg-dark data-bs-theme='dark' border border-dark-subtle rounded-bottom">
-    <ul className="navbar justify-content-around align-items-center gap-2 ">
+      <div className="Navbar d-flex flex-row bg-dark data-bs-theme='dark' border border-dark-subtle rounded-bottom">
+      <div className='navbar-contenedor-imagen d-flex align-items-center'>
+      <ImagenLogo src={Logo} />
+      </div>
+        
+       <nav className="navbar d-flex flex-row justify-content-around">
+    <ul className="navbar-ul d-flex flex-row justify-content-around align-items-center gap-4 ">
     <li className="nav-item d-flex flex-row align-items-center gap-1">
       <span className='Navbar-span-icono text-light'><i class="fa-solid fa-house"></i></span>
         <Link className="nav-link text-light" to='/'>Home</Link>
@@ -27,6 +33,7 @@ function Navbar() {
           </li>
         </ul>
   </nav>
+     
     </div>
 
       <Outlet />
@@ -35,3 +42,5 @@ function Navbar() {
 };
 
 export default Navbar;
+
+

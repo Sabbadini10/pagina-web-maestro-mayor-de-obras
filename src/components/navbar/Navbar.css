@@ -1,9 +1,24 @@
 @import '../../components/app/App.css';
 
-.navbar{
-    font-size: 11px;
+.Navbar{
+    font-size: 9px;
     width: 100%;
-    height: 55px;
-    display: flex;
-    align-items: center;
+    height: 50px;
+}
+
+
+.Navbar-contenedor-nav{
+    height: auto;
+}
+
+.navbar-ul{
+    margin-left: -10px;
+    height: 30px;
+}
+
+.navbar-imagen-logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 7px;
 }
