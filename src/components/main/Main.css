@@ -1,5 +1,152 @@
 @import '../app/App.css';
 
-.Main {
-    min-height: calc(100vh - 100px);
+.main-titulo{
+    font-size: 20px;
 }
+
+.main-subtitulo-titulo{
+font-size: 20px;
+}
+
+.contenedor-card{
+    width: 18rem;
+    
+}
+
+.contenedor-main-tablet{
+    display: none;
+}
+
+.contenedor-main-escritorio{
+    display: none;
+}
+
+.main-parrafo{
+    text-align: center;
+    font-size: 16px;
+}
+
+
+@media only screen and (min-width: 375px) {
+    .main-titulo{
+        font-size: 24px;
+    }
+    
+    .main-subtitulo-titulo{
+    font-size: 24px;
+    }
+    
+    .contenedor-card{
+        width: 20rem;
+    }
+
+    .main-parrafo{
+        font-size: 18px;
+    }
+  }
+  
+  @media only screen and (min-width: 425px) {
+    .main-titulo{
+        font-size: 28px;
+    }
+    
+    .main-subtitulo-titulo{
+    font-size: 28px;
+    }
+    
+    .contenedor-card{
+        width: 25rem;
+        height: 25rem;
+        
+    }
+
+    .main-parrafo{
+        font-size: 20px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .main-titulo{
+        font-size: 35px;
+    }
+    
+    .main-subtitulo-titulo{
+    font-size: 35px;
+    }
+    
+    .contenedor-card{
+        width: 18rem;
+    }
+
+    .contenedor-main-tablet{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-contenedor-principal{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+        
+    }
+    .main-parrafo{
+        font-size: 22px;
+    }
+
+
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .main-titulo{
+        font-size: 35px;
+    }
+    
+    .main-subtitulo-titulo{
+    font-size: 35px;
+    }
+    
+    .contenedor-card{
+        width: 18rem;
+    }
+
+    .contenedor-main-escritorio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main-contenedor-principal{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main-parrafo{
+        font-size: 24px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 1366px) {
+    .main-titulo{
+        font-size: 40px;
+    }
+    
+    .main-subtitulo-titulo{
+    font-size: 40px;
+    }
+    
+    .contenedor-card{
+        width: 18rem;
+        
+    }
+
+    .contenedor-main-escritorio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+  }
+  

@@ -7,9 +7,9 @@ function Footer() {
       <div className="container my-auto mt-3">
         <div className="main-contenedor-redes d-flex flex-row justify-content-around">
           <div className="contenedor-caja-redes d-flex flex-column align-items-center justify-content-center">
-            <h6 className="footer-redes-titulo">Linkedin</h6>
+            <h6 className="footer-redes-titulo">Whatsapp</h6>
             <a href="https://www.linkedin.com/in/matias-sabbadini-desarrollador/">
-              <i className="main-redes-iconos fa-brands fa-linkedin"></i>
+            <i class="main-redes-iconos fa-brands fa-whatsapp"></i>
             </a>
           </div>
           <div className="contenedor-caja-redes d-flex flex-column align-items-center justify-content-center">
