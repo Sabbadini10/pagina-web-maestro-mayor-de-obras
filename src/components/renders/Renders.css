@@ -5,17 +5,19 @@ height: 50%;
 
 
 .render-imagen-Render1{
-    width: 50px;
+    width: 70px;
+    height: 100px;
 }
 
 .render-imagen-Render2{
-    width: 50px;
+    width: 70px;
+    height: 100px;
 }
 
 .cardRender-parrafo1{
-font-size: 6px;
+font-size: 10px;
 }
 
 .cardRender-parrafo2{
-    font-size: 6px;
+    font-size: 10px;
 }

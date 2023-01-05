@@ -1,45 +1,100 @@
-@import '../app/App.css';
+@import "../app/App.css";
 
-.Footer{
-    background-color: black;
-    height: 40px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+.Footer {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.contenedor-caja-redes {
+  font-size: 10px;
+}
+
+.footer-redes-titulo {
+  font-size: 10px;
+}
+
+.main-redes-iconos {
+  color: aliceblue;
 }
 
 .Footer-span {
-    color: white;
-    font-size: 7px;
-    font-weight: 900;
-    font-family: var(--parrafo-2);
-    
+  color: white;
+  font-size: 7px;
+  font-weight: 900;
+  font-family: var(--parrafo-2);
 }
 
 @media only screen and (min-width: 320px) {
-    body{
-        width: 100%;
-    }
+  body {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .Footer {
+    height: 85px;
+  }
+
+  .Footer-span {
+    font-size: 12px;
+  }
+
+  .contenedor-caja-redes {
+    font-size: 12px;
+  }
+
+  .footer-redes-titulo {
+    font-size: 12px;
+  }
+
+  .main-redes-iconos {
+    color: aliceblue;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  .Footer {
+    height: 100px;
+  }
+
+  .Footer-span {
+    font-size: 14px;
+  }
+
+  .contenedor-caja-redes {
+    font-size: 14px;
+  }
+
+  .footer-redes-titulo {
+    font-size: 14px;
+  }
+
+  .main-redes-iconos {
+    color: aliceblue;
+    font-size: 14px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .Footer{
-        height: 60px;
-    }
-    
-    .Footer-span {
-        font-size: 15px;
-    }
+  .Footer {
+    height: 60px;
+  }
+
+  .Footer-span {
+    font-size: 15px;
+  }
 }
 
-
 @media only screen and (min-width: 1024px) {
-    .Footer{
-        height: 70px;
-    }
-    
-    .Footer-span {
-        font-size: 18px;
-    }
+  .Footer {
+    height: 70px;
+  }
+
+  .Footer-span {
+    font-size: 18px;
+  }
 }

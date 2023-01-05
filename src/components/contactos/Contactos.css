@@ -1,0 +1,9 @@
+@import "../app/App.css";
+
+.Contactos {
+  min-height: calc(100vh - 100px);
+}
+
+.contacto-formulario {
+  width: 90%;
+}
