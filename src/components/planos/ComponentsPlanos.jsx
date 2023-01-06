@@ -8,7 +8,7 @@ import Planos2 from "../../imagenes/proyectos/proyecto2.jpg";
 function Planos() {
   return (
     <div className="Planos">
-      <h1 className="main-titulo d-flex justify-content-center mt-1">Planos</h1>
+      <h1 className="titulo-plano d-flex justify-content-center mt-1">Planos</h1>
       <CardPlanos2
         src={Planos2}
         descripcion="Lorem, ipsum dolor sit amet consectetur adipisicing elit."

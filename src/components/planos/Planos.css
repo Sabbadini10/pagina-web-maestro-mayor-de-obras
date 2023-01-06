@@ -1,0 +1,154 @@
+.plano-imagen-planos1{
+    width: 70px;
+    height: 100px;
+}
+
+.cardplanos-parrafo1{
+    font-size: 20px;
+    text-align: start;
+}
+
+.cardplanos-parrafo2{
+    font-size: 20px;
+    text-align: end;
+}
+
+@media only screen and (min-width: 375px) {
+    .titulo-plano{
+        font-size: 30px;
+        
+    }
+
+    .cardplanos-parrafo1{
+        font-size: 20px;
+    }
+
+    .cardplanos-parrafo2{
+        font-size: 20px;
+    }
+
+
+    .plano-imagen-plano1{
+        width: 70px;
+        height: 100px;
+    }
+    
+  }
+
+
+
+  
+  @media only screen and (min-width: 425px) {
+   .titulo-plano{
+        font-size: 32px;
+        
+    }
+
+    .cardplanos-parrafo2{
+        font-size: 20px;
+    }
+
+
+    .plano-imagen-plano1{
+        width: 70px;
+        height: 100px;
+    }
+
+  }
+
+
+
+  
+  @media only screen and (min-width: 768px) {
+  .titulo-plano{
+        font-size: 34px;
+        
+    }
+
+    .cardplanos-parrafo1{
+        font-size: 25px;
+    }
+
+    .cardplanos-parrafo2{
+        font-size: 25px;
+    }
+
+    .plano-imagen-planos1{
+        width: 100px;
+        height: 100px;
+    }
+
+    .Planos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardPlanos1{
+        width: 90%;
+        height: 150px;
+    }
+
+    .cardPlanos2{
+        width: 90%;
+        height: 150px;
+    }
+
+
+  }
+
+  
+  @media only screen and (min-width: 1024px) {
+    .titulo-plano{
+        font-size: 36px;
+        
+    }
+
+    .cardplanos-parrafo1{
+        font-size: 35px;
+    }
+
+    .cardplanos-parrafo2{
+        font-size: 35px;
+    }
+
+
+    .plano-imagen-planos1{
+        width: 150px;
+        height: 150px;
+    }
+
+    .cardPlanos1{
+        width: 90%;
+        height: 200px;
+    }
+
+    .cardPlanos2{
+        width: 90%;
+        height: 200px;
+    }
+
+  }
+
+
+  
+  @media only screen and (min-width: 1366px) {
+    .titulo-plano{
+        font-size: 38px;
+        
+    }
+
+    .cardplanos-parrafo2{
+        font-size: 38px;
+    }
+
+
+    .plano-imagen-planos1{
+        width: 150px;
+        height: 150px;
+    }
+
+  }
+  

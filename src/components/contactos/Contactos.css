@@ -1,9 +1,39 @@
 @import "../app/App.css";
 
-.Contactos {
-  min-height: calc(100vh - 100px);
-}
 
 .contacto-formulario {
   width: 90%;
+}
+
+
+@media only screen and (min-width: 375px) {
+  .contactos-boton{
+    width: 90px;
+    height: 50px;
+  }
+
+}
+@media only screen and (min-width: 768px) {
+
+  .contactos-boton{
+    width: 110px;
+    height: 60px;
+
+}
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .contactos-boton{
+    width: 130px;
+    height: 70px;
+
+}
+
+}
+
+
+
+@media only screen and (min-width: 1366px) {
+
 }

@@ -44,8 +44,8 @@ function Contactos() {
               rows="3"
             ></textarea>
           </div>
-          <div class="col-auto d-flex justify-content-center">
-            <button type="submit" class="btn btn-primary mb-3">
+          <div class="contactos-boton-contenedor col-auto d-flex justify-content-center">
+            <button type="submit" class="contactos-boton btn btn-primary mb-3">
               Enviar
             </button>
           </div>
