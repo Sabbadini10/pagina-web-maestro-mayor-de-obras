@@ -30,7 +30,7 @@ function Footer() {
           </div>
         </div>
         <div className="copyright text-center my-auto Footer-span mt-2 mb-2">
-          <span>Copyright &copy; Rodrigo Franco (2022)</span>
+          <span>Copyright &copy; Rodrigo Franco (2023)</span>
         </div>
       </div>
     </footer>

@@ -38,14 +38,6 @@ function Navbar() {
                 Renders
               </Link>
             </li>
-            <li className="nav-item text-light d-flex flex-row align-items-center gap-1">
-              <span className="Navbar-span-icono text-light">
-                <i class="fa-solid fa-address-book"></i>
-              </span>
-              <Link className="nav-link text-light" to="/contactos">
-                Contactos
-              </Link>
-            </li>
           </ul>
         </nav>
       </div>
