@@ -98,7 +98,27 @@ font-size: 20px;
         font-size: 22px;
     }
 
+    .home-imagen{
+            display:block!important;
+            -webkit-transition:-webkit-transform 1s ease-out;
+            -moz-transition:-moz-transform 1s ease-out;
+            -o-transition:-o-transform 1s ease-out;
+            -ms-transition:-ms-transform 1s ease-out;
+            transition:transform 1s ease-out;
+            }
 
+            .home-imagen:hover{
+                width: 400px;
+                height: 400px;
+            -moz-transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            z-index: 2;
+        }
+
+        
   }
   
   @media only screen and (min-width: 1024px) {

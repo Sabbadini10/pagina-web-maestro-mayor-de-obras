@@ -22,7 +22,7 @@ function Main() {
         <div
           className="contenedor-card card p-2 bg-dark bg-opacity-75 mt-3"
         >
-          <ImagenHome className="p-1" src={ImagenCard} />
+          <ImagenHome className="p-1 imagenHome-1" src={ImagenCard} />
           <div className="card-body">
             <p className="card-text text-light">
               Some quick example text to build on the card title and make up the
@@ -33,7 +33,7 @@ function Main() {
         <div
           className="contenedor-card card mt-3 mb-3 p-2 bg-dark bg-opacity-75 "
         >
-          <ImagenHome src={ImagenCard} />
+          <ImagenHome  className="p-1" src={ImagenCard} />
           <div className="card-body">
             <p className="card-text text-light">
               Some quick example text to build on the card title and make up the
@@ -47,7 +47,7 @@ function Main() {
         <div
           className="contenedor-card card mt-3 p-2 bg-dark bg-opacity-75 "
         >
-          <ImagenHome src={ImagenCard} />
+          <ImagenHome className="p-1" src={ImagenCard} />
           <div className="card-body">
             <p className="card-text text-light">
               Some quick example text to build on the card title and make up the
@@ -72,7 +72,7 @@ function Main() {
         <div
           className="contenedor-card card mt-3 p-2 bg-dark bg-opacity-75 "
         >
-          <ImagenHome src={ImagenCard} />
+          <ImagenHome className="p-1" src={ImagenCard} />
           <div className="card-body">
             <p className="card-text text-light">
               Some quick example text to build on the card title and make up the
